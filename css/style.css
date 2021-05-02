@@ -1,0 +1,253 @@
+html {
+	
+	
+	
+}
+* {
+    box-sizing: border-box;
+}
+
+.body {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.background {
+	width: auto;
+    height: 540px;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+  	background-repeat: no-repeat;
+    filter: blur(2px);
+}
+
+.slogan {
+	position: absolute;
+	color: white;
+	text-align: center;
+	letter-spacing: 6px;
+	top: 96px;
+	left: 390px;
+	font-family: Athelas;
+	font-size: 72px;
+	text-shadow: 1px 1px 2px black;
+	margin: auto;
+
+}
+
+.minslogan {
+	position: absolute;
+	color: white;
+	text-align: center;
+	letter-spacing: 6px;
+	top: 200px;
+	left: 430px;
+	font-family: Athelas;
+	font-size: 20px;
+	margin: auto;
+}
+/*目的地下拉選單*/
+.dropbtn1 {
+    background-color: #DCEEF9; opacity: 79%;
+    color: white;
+     min-width: 534px;
+    min-height: 60px;
+    padding: 16px;
+    font-size: 20px;
+    font-family: Athelas;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+
+}
+.location {
+    position: absolute;
+    display: inline-block;
+     min-width: 534px;
+    min-height: 60px;
+    top: 250px;
+    left: 450px;
+    z-index: 10;
+    margin: auto;
+}
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 534px;
+    min-height: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 a:hover {background-color: #f1f1f1}
+
+.location:hover .dropdown-content1 {
+    display: block;
+}
+
+.location:hover .dropbtn1 {
+    background-color: #3D5A80;
+}
+
+/*起點下拉選單*/
+.dropbtn2 {
+    background-color: #DCEEF9; opacity: 79%;
+    color: white;
+     min-width: 534px;
+    min-height: 60px;
+    padding: 16px;
+    font-size: 20px;
+    font-family: Athelas;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+}
+.depart {
+     position: absolute;
+    display: inline-block;
+     min-width: 534px;
+    min-height: 60px;
+    top: 340px;
+    left: 450px;
+    z-index: 9;
+    margin: auto;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 534px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a:hover {background-color: #f1f1f1}
+
+.depart:hover .dropdown-content2 {
+    display: block;
+}
+
+.depart:hover .dropbtn2 {
+    background-color: #3D5A80;
+}
+
+/*日期下拉選單*/
+.dropbtn3 {
+    background-color: #DCEEF9; opacity: 79%;
+    color: white;
+     min-width: 250px;
+    min-height: 60px;
+    padding: 16px;
+    font-size: 20px;
+    font-family: Athelas;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+}
+.date {
+    position: absolute;
+    display: inline-block;
+     min-width: 250px;
+    min-height: 60px;
+    top: 430px;
+    left: 450px;
+    z-index: 8;
+    margin: auto;
+}
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content3 a:hover {background-color: #f1f1f1}
+
+.date:hover .dropdown-content3 {
+    display: block;
+}
+
+.date:hover .dropbtn3 {
+    background-color: #3D5A80;
+}
+
+/*submit button*/
+.btn {
+    background-color: #3D5A80; opacity: 90%;
+    color: white;
+     min-width: 80px;
+    min-height: 60px;
+    padding: 16px;
+    font-size: 20px;
+    font-family: Athelas;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+}
+.submit {
+    position: absolute;
+    display: inline-block;
+     min-width: 80px;
+    min-height: 60px;
+    top: 430px;
+    left: 880px;
+    z-index: 7;
+    margin: auto;
+}
+.submit:hover .btn {
+    background-color: #3D5A80;
+}
+
+.footer {
+  float: left;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3D5A80 !important;
+  text-align: center;
+  z-index: 7;
+  min-height: 180px;
+
+}
+
+.content1 {
+	color: white;
+	font-size: 18px;
+	float: left;
+	min-width: 400px;
+	margin-left: 300px;
+	margin-top: 50px;
+	font-family: Athelas;
+	text-align: left;
+}
+.content2 {
+	color: white;
+	font-size: 18px;
+	margin-left: 300px;
+	margin-top: 50px;
+	float: left;
+	font-family: Athelas;
+}
